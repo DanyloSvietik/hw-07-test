@@ -123,9 +123,9 @@
 
 .contact-link {
     display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    align-items: center;
     &:hover,
     &:focus {
             color: var(--blue-text-backgrounds);
