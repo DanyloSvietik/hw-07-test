@@ -68,22 +68,20 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            background-color: var(--blue-text-backgrounds)
+        }
 }
 
 .team-soc-icon {
     width: 20px;
     height: 20px;
     fill: #afb1b8;
-}
-
-.team-soc-link:hover,
-.team-soc-link:focus {
-    background-color: var(--blue-text-backgrounds)
-}
-
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
-    fill: var(--header-background-color);
-    width: 22px;
-    height: 22px;
+    .team-soc-link:hover &,
+    .team-soc-link:focus & {
+            fill: var(--header-background-color);
+            width: 22px;
+            height: 22px;
+        }
 }

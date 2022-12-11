@@ -14,10 +14,9 @@
 
 .activities-title {
     position: relative;
-}
-
-.activities-title::before {
-    position: relative;
+    &::before {
+            position: relative;
+        }
 }
 
 .activities-box {

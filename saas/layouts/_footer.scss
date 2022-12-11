@@ -37,27 +37,25 @@
     font-style: normal;
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--blue-text-backgrounds);
-}
-
-.footer-adress:hover,
-.footer-adress:focus {
-    color: var(--blue-text-backgrounds);
-}
-
 .footer-adress {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--header-background-color);
+    &:hover,
+    &:focus {
+            color: var(--blue-text-backgrounds);
+        }
 }
 
 .footer-contacts {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    &:hover,
+    &:focus {
+            color: var(--blue-text-backgrounds);
+        }
 }
 
 .footer-links {
