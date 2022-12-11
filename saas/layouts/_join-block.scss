@@ -1,0 +1,27 @@
+.footer-social {
+    margin-left: 70px;
+}
+
+.social-title {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--header-background-color);
+    margin-bottom: 20px;
+}
+
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link>.social-team-icon {
+    fill: var(--header-background-color);
+}
+
+.team-soc-icon-footer {
+    width: 20px;
+    height: 20px;
+    fill: var(--header-background-color);
+}

@@ -1,0 +1,25 @@
+.benefits {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+}
+
+/*---------Преимущества-benefits----------*/
+
+.body-benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container-benefits {
+    display: flex;
+    gap: 30px;
+}
+
+.container-benefits .item {
+    flex-basis: calc((100% - 90px)/4);
+}
